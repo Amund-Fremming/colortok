@@ -39,6 +39,13 @@
     "platforms": [
       "ios",
       "web"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b4928a9b-4010-47b3-8655-f8fd98d3ec1b"
+      }
+    },
+    "owner": "amundfremming"
   }
 }
