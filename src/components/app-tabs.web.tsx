@@ -24,8 +24,17 @@ export default function AppTabs() {
           <TabTrigger name="home" href="/" asChild>
             <TabButton>Home</TabButton>
           </TabTrigger>
-          <TabTrigger name="explore" href="/explore" asChild>
-            <TabButton>Explore</TabButton>
+          <TabTrigger name="friends" href="/friends" asChild>
+            <TabButton>Friends</TabButton>
+          </TabTrigger>
+          <TabTrigger name="create" href="/create" asChild>
+            <TabButton>Create</TabButton>
+          </TabTrigger>
+          <TabTrigger name="inbox" href="/inbox" asChild>
+            <TabButton>Inbox</TabButton>
+          </TabTrigger>
+          <TabTrigger name="profile" href="/profile" asChild>
+            <TabButton>Profile</TabButton>
           </TabTrigger>
         </CustomTabList>
       </TabList>
@@ -55,7 +64,7 @@ export function CustomTabList(props: TabListProps) {
     <View {...props} style={styles.tabListContainer}>
       <ThemedView type="backgroundElement" style={styles.innerContainer}>
         <ThemedText type="smallBold" style={styles.brandText}>
-          Expo Starter
+          ColorTok
         </ThemedText>
 
         {props.children}

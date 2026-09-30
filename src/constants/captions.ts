@@ -1,0 +1,17 @@
+export const Captions = [
+  'POV: you blinked',
+  'Wait for it...',
+  'No filter needed',
+  'Main character energy',
+  'This is the sign',
+  'Day 47 of posting colors',
+  'Mood.',
+  'Tell me you love me',
+  'Certified vibe',
+  'Just one more scroll',
+  'Screenshot this',
+  'Nobody asked, but here',
+  'Rate this 1-10',
+  'Brb, staring',
+  'Hits different at 3am',
+];
